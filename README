@@ -1,0 +1,17 @@
+Trinker (prototype) - Competitive Moderation
+
+Trinker is an online social game revolving around responsible alcohol use. As you log drinks, you get points, complete quests, unlock achievements, master skills, and level up within the game, competing against friends and other Trinkites (users) across the nation. Trinkites are eligible for discounts from their favorite manufacturers, drink specials at local bars, and notifications about tastings, festivals, and other events in their area.
+
+This prototype is the first interactive version of the app, coded in jQueryMobile as a proof-of-concept (as well as an exercise for me to play with jQM). It doesn't do much - there's no data layer, but it'll at least give people the idea of how to interact with the system.
+
+Files Included:
+	/js/ 	- javascript files and libraries for jQuery and jQM
+	/style/ - CSS stylesheets for jQM, Trinker, and associated icons
+	*.html	- various screens in the app
+	*.png	- simple placeholder graphics used in the prototype
+	
+Instructions:
+
+Open index.html in a browser (or on your phone). Yeah, that's about it.
+
+Live version can be seen at http://bradorego.com/trinkerPrototype/

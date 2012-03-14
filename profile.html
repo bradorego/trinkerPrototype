@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Trinker - Profile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style/plugins/jquery.mobile-1.1.0-rc.1.min.css" />
+	<link rel="stylesheet" href="style/main.css" />
+	<script src="js/plugins/jquery-1.7.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/plugins/jquery.mobile-1.1.0-rc.1.min.js"></script>
+</head>
+<body>
+
+<div id="profile" data-role="page" data-theme="c">
+	<div data-role="header" data-theme="a">
+		<h1>dinko628's Profile</h1>
+	</div><!-- /header -->
+
+	<div id="profile-badge" data-role="content" data-theme="c">
+		<a href="#" id="profile-badge-button" data-role="button" data-theme="b">
+			<div id="profile-pic">
+				<img id="profile-picture" src="profile.png" />
+			</div><!-- /profile-pic -->
+			<div id="profile-name">
+				dinko628
+			</div><!-- /profile-name -->
+			<div id="profile-level">
+				Level 3
+			</div><!-- /profile-level -->
+			<div id="profile-exp">
+				<input id="profile-exp" class="ui-hidden-accessible ui-hide-label" disabled="true" type="range" id="result-points-bar" value="124" min="0" max="190" data-theme="b" data-highlight="true" data-mini="true" data-track-theme="d" />
+				<br />124 / 190
+			</div><!-- /profile-exp -->
+
+		</a>
+	</div><!--content#profile-badge -->
+
+	<div id="profile-history" data-role="content">
+		<ul id="profile-history-table" data-role="listview" data-inset="true">
+			<li id="profile-history-item-1" class="profile-history-entry">
+				<div class="account-name">dinko628</div><!--account-name-->
+				<p class="ui-li-aside">1:18AM</p>
+				<div class="activity-text">called a cab</div><!--activity-text-->
+				<div class="activity-points">+10</div><!--activity-points-->
+			</li>
+			<li id="profile-history-item-2" class="profile-history-entry">
+				<div class="account-name">dinko628</div><!--account-name-->
+				<p class="ui-li-aside">12:40AM</p>
+				<div class="activity-text">completed "Bond, James Bond"</div><!--activity-text-->
+				<div class="activity-points">+25</div><!--activity-points-->
+			</li>
+			<li id="profile-history-item-3" class="profile-history-entry">
+				<div class="account-name">dinko628</div><!--account-name-->
+				<p class="ui-li-aside">12:40AM</p>
+				<div class="activity-text">had a dry martini</div><!--activity-text-->
+				<div class="activity-points">+12</div><!--activity-points-->
+			</li>
+			<li id="profile-history-item-4" class="hide profile-history-entry">
+				<div class="account-name"></div><!--account-name-->
+				<p class="ui-li-aside"></p>
+				<div class="activity-text"></div><!--activity-text-->
+				<div class="activity-points"></div><!--activity-points-->
+			</li>
+			<li id="profile-history-item-5" class="hide profile-history-entry">
+				<div class="account-name"></div><!--account-name-->
+				<p class="ui-li-aside"></p>
+				<div class="activity-text"></div><!--activity-text-->
+				<div class="activity-points"></div><!--activity-points-->
+			</li>
+			<li id="profile-history-item-6" class="hide profile-history-entry">
+				<div class="account-name"></div><!--account-name-->
+				<p class="ui-li-aside"></p>
+				<div class="activity-text"></div><!--activity-text-->
+				<div class="activity-points"></div><!--activity-points-->
+			</li>
+			<li id="profile-history-item-7" class="hide profile-history-entry">
+				<div class="account-name"></div><!--account-name-->
+				<p class="ui-li-aside"></p>
+				<div class="activity-text"></div><!--activity-text-->
+				<div class="activity-points"></div><!--activity-points-->
+			</li>
+			<li id="profile-history-item-8" class="hide profile-history-entry">
+				<div class="account-name"></div><!--account-name-->
+				<p class="ui-li-aside"></p>
+				<div class="activity-text"></div><!--activity-text-->
+				<div class="activity-points"></div><!--activity-points-->
+			</li>
+		</ul><!--listview#profile-history-table-->
+	</div><!--content#profile-history-->
+	<a href="index.html" data-role="button" data-icon="back">Back to Home!</a>
+</div><!--page#profile -->
+
+</body>
+</html>
+

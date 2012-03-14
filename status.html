@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Trinker - Status</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style/plugins/jquery.mobile-1.1.0-rc.1.min.css" />
+	<link rel="stylesheet" href="style/main.css" />
+	<script src="js/plugins/jquery-1.7.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/plugins/jquery.mobile-1.1.0-rc.1.min.js"></script>
+</head>
+<body>
+
+<div id="status" data-role="page" data-theme="c">
+
+	<div data-role="header" data-theme="a">
+		<h1>Status</h1>
+	</div><!-- /header -->
+	<div data-role="content" data-theme="d">
+		<h3 id="status-header"> 0.038</h3>
+		<div id="status-chart">
+			<img id="status-image" src="graph.png" />
+		</div><!--/status-chart-->
+		<div id="status-table">
+			<ul id="status-list" data-role="listview" data-inset="true">
+				<li data-role="list-divider">Drink List</li>
+				<li id="status-list-item-1" class="status-list-item">
+					<div class="status-list-item-name">Stout</div>
+					<div class="status-list-item-cost">$4</div>
+				</li>
+				<li id="status-list-item-2" class="status-list-item">
+					<div class="status-list-item-name">Sidecar</div>
+					<div class="status-list-item-cost">$4.50</div>
+				</li>
+				<li id="status-list-item-3" class="status-list-item hide">
+					<div class="status-list-item-name"></div>
+					<div class="status-list-item-cost"></div>
+				</li>
+				<li id="status-list-item-4" class="status-list-item hide">
+					<div class="status-list-item-name"></div>
+					<div class="status-list-item-cost"></div>
+				</li>
+				<li id="status-list-item-5" class="status-list-item hide">
+					<div class="status-list-item-name"></div>
+					<div class="status-list-item-cost"></div>
+				</li>
+				<li id="status-list-item-6" class="status-list-item hide">
+					<div class="status-list-item-name"></div>
+					<div class="status-list-item-cost"></div>
+				</li>
+				<li id="status-list-item-7" class="status-list-item hide">
+					<div class="status-list-item-name"></div>
+					<div class="status-list-item-cost"></div>
+				</li>
+				<li id="status-list-item-8" class="status-list-item hide">
+					<div class="status-list-item-name"></div>
+					<div class="status-list-item-cost"></div>
+				</li>
+				<li id="status-list-item-9" class="status-list-item hide">
+					<div class="status-list-item-name"></div>
+					<div class="status-list-item-cost"></div>
+				</li>
+				<li id="status-list-item-10" class="status-list-item hide">
+					<div class="status-list-item-name"></div>
+					<div class="status-list-item-cost"></div>
+				</li>
+				<li data-role="list-divider" data-theme="a">Totals</li>
+				<li id="status-list-item-total" class="status-list-item">
+					<div class="status-list-item-name">2 drinks</div>
+					<div class="status-list-item-cost">$8.50</div>
+				</li>
+			</ul><!--listview#status-list-->
+		</div><!--/status-table-->
+		<a href="#home" data-role="button" data-icon="back" id="status-back-button">Go Home</a>
+	</div><!-- /content -->
+</div><!-- /page#status -->
+
+</body>
+</html>

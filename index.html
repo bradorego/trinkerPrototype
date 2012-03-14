@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Trinker - Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style/plugins/jquery.mobile-1.1.0-rc.1.min.css" />
+	<link rel="stylesheet" href="style/main.css" />
+	<script src="js/plugins/jquery-1.7.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/plugins/jquery.mobile-1.1.0-rc.1.min.js"></script>
+</head>
+<body>
+
+<div id="home" data-role="page" data-theme="d">
+
+	<div data-role="header" data-theme="a">
+		<h1>Home</h1>
+	</div><!-- /header -->
+
+	<div id="status-bar" data-role="content" data-theme="b">
+		<a href="status.html" data-role="button" class="section-button" id="status-button" data-transition="slideup">
+			<div id="status-BAC" class="statusBar">
+				0.02
+			</div><!--/status-BAC-->
+			<div id="status-drinks" class="statusBar">
+				2 drinks
+			</div><!--/status-drinks-->
+			<div id="status-money" class="statusBar">
+				$8.50
+			</div><!--/status-money-->
+		</a>
+	</div><!--content#status-->
+
+	<div id="drinks" data-role="content" data-theme="b">
+		<a id="beerButton" class="drink-button" href="beer.html" data-role="button" data-inline="true" data-rel="dialog"><div class="sprite"></div>Beer</a>
+		<a id="wineButton" class="drink-button" href="wine.html" data-role="button" data-inline="true" data-rel="dialog"><div class="sprite"></div>Wine</a>
+		<a id="cocktailButton" class="drink-button" href="cocktail.html" data-role="button" data-inline="true" data-rel="dialog"><div class="sprite"></div>Cocktail</a>
+		<a id="spiritButton" class="drink-button" href="spirit.html" data-role="button" data-inline="true" data-rel="dialog"><div class="sprite"></div>Spirit</a>
+	</div><!--/content#drinks-->
+
+	<div id="recent" data-role="content" data-theme="e">
+		<a href="result.html" data-theme="b" id="recent-first" class="beer recent-button" data-role="button" data-inline="true"><div class="sprite"></div></a>
+		<a href="result.html" data-theme="b" id="recent-second" class="hide recent-button" data-role="button" data-inline="true"><div class="sprite"></div></a>
+		<a href="result.html" data-theme="b" id="recent-third" class="cocktail recent-button" data-role="button" data-inline="true"><div class="sprite"></div></a>
+		<a href="result.html" data-theme="b" id="recent-fourth" class="spirit recent-button" data-role="button" data-inline="true"><div class="sprite"></div></a>
+	</div><!--/content#recent-->
+
+	<div id="profile-bar" data-role="content" data-theme="b">
+		<a href="profile.html" data-role="button" class="section-button" id="profile-button" data-transition="slide">
+			<div id="profile-bar-lvl" class="profileBar">
+				Level 3
+			</div><!--/profile-lvl-->
+			<div id="profile-bar-exp" class="profileBar">
+				124 pts
+			</div><!--/profile-exp-->
+		</a>
+	</div><!-- /content#profile-->
+</div><!-- /page#home -->
+
+</body>
+</html>

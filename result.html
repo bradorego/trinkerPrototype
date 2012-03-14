@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Trinker - Result</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style/plugins/jquery.mobile-1.1.0-rc.1.min.css" />
+	<link rel="stylesheet" href="style/main.css" />
+	<script src="js/plugins/jquery-1.7.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/plugins/jquery.mobile-1.1.0-rc.1.min.js"></script>
+</head>
+<body>
+<div id="result" data-role="page" data-theme="c">
+
+	<div data-role="header" data-theme="a">
+		<h1>Hooray! Points!</h1>
+	</div><!-- /header -->
+
+	<div id="result-points" data-role="content">
+		<a href="profile.html" data-role="button" class="section-button" id="result-points-button" data-theme="b">
+		<div id="result-points-text">
+			+8 points!
+		</div><!--/result-points-text-->
+		<div id="result-points-bar" data-role="fieldcontain" class="ui-hide-label">
+			<input class="ui-hidden-accessible ui-hide-label" disabled="true" type="range" id="result-points-bar" value="33" min="0" max="100" data-theme="b" data-highlight="true" data-mini="true" data-track-theme="d" />
+		</div><!--/result-points-bar-->
+		</a>
+	</div><!--/content#result-points-->
+	<div id="result-status" data-role="content">
+		<h2 id="result-status-header">Status</h2>
+		<a href="status.html" data-role="button" class="section-button" id="result-status-button" data-theme="b">
+			<div id="result-status-level">
+				New BAC: 0.035
+			</div><!--result-status-level-->
+			<div id="result-status-money">
+				$12.50
+			</div><!--result-status-money-->
+		</a>
+	</div><!--content#result-status-->
+	<div id="result-condition" data-role="content">
+		<h2 id="result-condition-header">Conditions</h4>
+		<li>Relaxation</li>
+		<li>Joyousness</li>
+		<li>Decreased inhibition</li>
+		<li>Impaired Concentration</li>
+	</div><!--content#result-condition-->
+	<a href="index.html" data-role="button" data-icon="back">Okay, cool!</a>
+</div><!-- /page#result -->
+
+</body>
+</html>
+

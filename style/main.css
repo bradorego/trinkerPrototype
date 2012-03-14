@@ -1,0 +1,186 @@
+/* GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL GENERAL */
+h2{ /*results page headers*/
+	padding:0;margin:0;
+	margin:5px 0px;
+	font-size:18px;
+	border-bottom: 1px solid #000;
+	width:95%;
+}
+
+h3{ /*status page headers*/
+	padding:0; margin:0;
+	font-size:22px;
+	text-align:center;
+	color:#990;
+}
+
+h4{ /*profile item text */
+	padding:0; margin:0;
+	font-size:14px;
+}
+
+.section-button {padding:0; margin:0;}
+.section-button.ui-btn-corner-all {
+		-moz-border-radius:0;
+		-webkit-border-radius:0;
+		border-radius:0;
+	}
+
+.ui-content{	padding:0px;}
+.ui-header{	height:20px;}
+.ui-btn-corner-all{
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+}
+.ui-btn-inner{	border:none; padding:5px;}
+
+.ui-header .ui-title,.ui-footer .ui-title { margin:auto;}
+
+/* HOME SCREEN HOME SCREEN HOME SCREEN HOME SCREEN HOME SCREEN HOME SCREEN HOME SCREEN HOME SCREEN HOME SCREEN */
+.statusBar{	display:inline;}
+
+	#status-BAC{		float:left;	}
+	#status-drinks{	}
+	#status-money{		float:right;	}
+
+
+#profile-bar{	padding:0; margin:0;}
+
+.profileBar{	display:inline;}
+
+	#profile-bar-lvl{		float:left;	}
+	#profile-bar-exp{		float:right;	}
+#drinks{height:100%;}
+
+.drink-button{	width:45%;	height:100px;}
+#beerButton {float:left;}
+#wineButton {float:right;clear:right;}
+#cocktailButton {float:left;}
+#spiritButton {float:right;}
+
+
+#recent{}
+
+.recent-button{	
+	margin:5px 15px;
+	height:20px; 
+	width:30px;
+}
+.recent-button .ui-btn-inner{	margin:0px; padding:0px;}
+
+/* SPRITES SPRITES SPRITES SPRITES SPRITES SPRITES SPRITES SPRITES SPRITES SPRITES SPRITES SPRITES SPRITES */
+.ui-body-a .sprite{	background-image: url("icons/icons-18-white.png");}
+.ui-body-b .sprite{	background-image: url("icons/icons-18-white.png");}
+.ui-body-c .sprite{	background-image: url("icons/icons-18-black.png");}
+.ui-body-d .sprite{	background-image: url("icons/icons-18-black.png");}
+.ui-body-e .sprite{ background-image: url("icons/icons-18-black.png");}
+
+.drink-button .sprite{
+	height:36px; width:36px;
+	margin:auto;
+	margin-bottom:10px;
+	background-image: url("icons/icons-36-white.png");
+}
+
+	#beerButton .sprite{		background-position:0px 0px;	}
+	#wineButton .sprite{		background-position:108px 0px;	}
+	#cocktailButton .sprite{		background-position:72px 0px;	}
+	#spiritButton .sprite{		background-position:36px 0px;	}
+
+.recent-button .sprite{
+	height:18px; width: 18px;
+	margin:auto;
+	background-image: url("icons/icons-18-white.png");
+}
+	
+	.recent-button.beer .sprite{		background-position:0px 0px;	}
+	.recent-button.wine .sprite{		background-position:54px 0px;	}
+	.recent-button.spirit .sprite{		background-position:18px 0px;	}
+	.recent-button.cocktail .sprite{		background-position:36px 0px;	}
+	.recent-button.hide{		display:none;	}
+
+/* RESULTS SCREEN RESULTS SCREEN RESULTS SCREEN RESULTS SCREEN RESULTS SCREEN RESULTS SCREEN RESULTS SCREEN */
+#result-header{
+	margin:0;padding:0;
+
+}
+#result-points-text{  text-align:left; }
+#result-points-bar{  padding:0; }
+	#result-points-bar .ui-disabled{	
+		opacity:1.0;
+	}
+	#result-points-bar .ui-slider{
+		width:95%;
+	}
+	#result-points-bar .ui-slider-handle{
+		display:none;
+	}
+
+#result-status-level {
+	display:inline;
+	float:left;
+}
+
+#result-status-money {
+	display:inline;
+	float:right;
+	padding-right:5%;
+}
+
+/* STATUS SCREEN STATUS SCREEN STATUS SCREEN STATUS SCREEN STATUS SCREEN STATUS SCREEN STATUS SCREEN */
+#status-image { margin:auto 0;}
+
+#status-list{
+	margin:5px;
+}
+
+.hide {display:none !important;}
+.status-list-item-name{display:inline; color:#0ad;}
+.status-list-item-cost{display:inline; float:right; color:#0d0;}
+
+/* PROFILE SCREEN PROFILE SCREEN PROFILE SCREEN PROFILE SCREEN PROFILE SCREEN PROFILE SCREEN PROFILE SCREEN */
+#profile-pic { display:inline; float:left; }
+#profile-level { clear:both; float:left; margin-top:10px;}
+#profile-exp{  padding:0; text-align:center; width:75%; float:right;}
+	#profile-exp .ui-disabled{	opacity:1.0;	}
+	#profile-exp .ui-slider{	width:95%;	}
+	#profile-exp .ui-slider-handle{	display:none;	}
+	
+#profile-history-table { margin:5px; padding:0;}
+	#profile-history-table .ui-li-static{
+		font-weight:normal;
+		padding:0px;
+	}
+	#profile-history-table .ui-li{
+		padding:0px;
+	}
+	
+.profile-history-entry
+{
+	font-size:12px;
+	padding:5px !important;
+}
+
+.account-name
+{
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	overflow:visible;
+}
+
+.ui-li-aside{margin:0;}
+
+.activity-text
+{
+	padding-left:5px;
+	display:inline;
+}
+
+.activity-points
+{
+	display:inline;
+	float:right;
+
+}
